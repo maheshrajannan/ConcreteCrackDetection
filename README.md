@@ -45,8 +45,6 @@ The purpose is NOT,
 
    Let us follow this for setup and documentation, see [here](gCloudDockerSetup.md).
 
-   Follow [these](runningLocally.md) 3 steps for installing the app locally.
-
    Before starting a running app, let's first make sure we understand the background.
 
 ## Project Overview
@@ -64,14 +62,13 @@ The purpose is NOT,
 
 ### GKE cluster and Persistent Disk creation
 
-   **Step-1** Let us install GKE Cluster and Persistent Disk, by following [this](clusterPd.md) page.
+   This is created through Terraform.
 
 ### NFS server and volume creation
 
-   **Step-1** Let us follow this [guide](nfsServer.md) to create an NFS server.
+   This is created through Terraform.
 
-
-### Let us run the following 3 shell scripts to launch 3 components of application
+### Let us helm chart launch 3 components of application
 
    **Step-1** As a result, we have also created a `clusterPd`, `NFS server`, and `pvPvc`.
 
