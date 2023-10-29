@@ -1,6 +1,6 @@
 provider "google" {
   credentials = file("./concrete-detection-5.json") # Replace with your Google Cloud credentials file
-  project     = "concrete-detection-5"                      # Replace with your GCP project ID
+  project     = "concretecrackdetection-403519"                      # Replace with your GCP project ID
   region      = "us-central1"                          # Replace with your desired region
 }
 
