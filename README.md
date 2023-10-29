@@ -14,9 +14,7 @@ In this repository we will use an application that has 3 components to demonstra
 
    3. The third application component is a node Js web app. It displays raw concrete images and their corresponding analyzed images with cracks in gallery format.
 
-   4. There isn't a lot of technical jargon.
-
-   5. The main focus is to quick start with a running app.
+   ![App At A Glance](/docScreenshotsconcreteCrackDetectionAppDemo.png)
 
 ## Objective
 
