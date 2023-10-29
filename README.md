@@ -88,16 +88,29 @@ The purpose is NOT,
 
    2) **gKE** :- Inside this folder we will get `shell script` to run specific components.
 
-   3) **local** :- Inside this folder we will get `shell script` and `local.md` files to understand and run components `locally`.
+   3) **logs** :- Inside this folder we will get `logs` of the app when it creates a `docker image` and pushing it on dockerhub.
 
-   4) **logs** :- Inside this folder we will get `logs` of the app when it creates a `docker image` and pushing it on dockerhub.
-
-   5) **resourceManifests** :- Inside this folder we will get `YAML` files for deployment and services of gcloud.
+   4) **resourceManifests** :- Inside this folder we will get `YAML` files for deployment and services of gcloud.
 
 ## How to Run
 
 Running it is as simple as 1 ... 2 ... 3
 
-1. 
+1. Configure Infra , the volume
+
+   ![GCloud configure](/docScreenshots/gcloud-1.png)
+   ![GCloud configure](/docScreenshots/configure-1.png)
+   ![GCloud configure](/docScreenshots/configure-2.png)
+
+2. Install the 3 part app through helm.
+
+   ![Run The app](/docScreenshots/helm-1.png)
+   ![Run The app](/docScreenshots/helm-2.png)
+
+3. Run it.  
+
+   ![Upload](/docScreenshots/app-1.png)
+   ![Gallery](/docScreenshots/app-2.png)
+
 
 ## Thank you... :)
