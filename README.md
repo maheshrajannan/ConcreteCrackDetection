@@ -94,5 +94,10 @@ The purpose is NOT,
 
    5) **resourceManifests** :- Inside this folder we will get `YAML` files for deployment and services of gcloud.
 
+## How to Run
+
+Running it is as simple as 1 ... 2 ... 3
+
+1. 
 
 ## Thank you... :)
