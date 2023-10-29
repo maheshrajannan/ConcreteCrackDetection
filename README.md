@@ -4,12 +4,6 @@
 
    *This application has 3 components. It analyses uploaded concrete photos to find cracks. This is implemented and deployed locally first, then to GCLoud. We will do all of this in a hands on manner.*
 
-## Audience
-
-   1. Students
-
-   2. Cloud and CI/CD newbies
-
 ## At a Glance
 
 In this repository we will use an application that has 3 components to demonstrate `detecting cracks in concrete`.
