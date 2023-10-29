@@ -68,7 +68,7 @@ The purpose is NOT,
 
    This is created through Terraform.
 
-### Let us helm chart launch 3 components of application
+### Let us USE helm chart to launch 3 components of application
 
    **Step-1** As a result, we have also created a `clusterPd`, `NFS server`, and `pvPvc`.
 
@@ -80,12 +80,7 @@ The purpose is NOT,
 
    **Step-3** There are 3 components that are all connected to the same `PVC`.
 
-   **Step-4** Let see folder structure.
-
-   ![Folder Structure of components](/docScreenshots/folderStructure.png)
-
-
-   **Step-5** Three components have the following 5 folders. Let see below picture.
+   **Step-4** Three components have the following 5 folders. Let see below picture.
 
    ![Inside Component](/docScreenshots/insideComponent.png)
 
