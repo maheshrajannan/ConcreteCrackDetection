@@ -7,4 +7,4 @@ echo "Please put your docker username next to \= in below command"
 export set DOCKER_USER_ID=maheshrajannan
 
 echo "Project name of gCloud"
-export set PROJECT_ID=concretecrackdetection-403519
+export set PROJECT_ID=concrete-detection-4

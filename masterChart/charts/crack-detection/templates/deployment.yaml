@@ -1,0 +1,27 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: crack-detection-depl
+spec:
+  selector:
+    matchLabels:
+      app: crack-detection-pod
+  replicas: 1
+  template:
+    metadata:
+      labels:
+        app: crack-detection-pod
+    spec:
+      volumes:
+        - name: concrete-images-pv-nfs
+          persistentVolumeClaim:
+            claimName: concrete-images-pvc-nfs
+      containers:
+        - name: crack-detection-pod
+          image: "{{ .Values.global.crackDetectionImage }}"
+          imagePullPolicy: IfNotPresent
+          volumeMounts:
+            - mountPath: "/app/uploads/images"
+              name: concrete-images-pv-nfs
+          ports:
+          - containerPort: 5050

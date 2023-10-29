@@ -1,0 +1,27 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: concrete-image-gallery-depl
+spec:
+  selector:
+    matchLabels:
+      app: concrete-image-gallery-pod
+  replicas: 1
+  template:
+    metadata:
+      labels:
+        app: concrete-image-gallery-pod
+    spec:
+      volumes:
+        - name: concrete-images-pv-nfs
+          persistentVolumeClaim:
+            claimName: concrete-images-pvc-nfs
+      containers:
+        - name: concrete-image-gallery-pod
+          image: "{{ .Values.global.concreteGalleryImage }}"
+          imagePullPolicy: Always
+          volumeMounts:
+            - mountPath: "/app/uploads/images"
+              name: concrete-images-pv-nfs
+          ports:
+          - containerPort: 5051
