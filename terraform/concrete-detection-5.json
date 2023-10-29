@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "concretecrackdetection-403519",
+  "private_key_id": "810a89b1ad3725c29aab328e1fd6ddb50d5ce9d5",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQCwAC0n2WSDJ4VH\nlS8gQk7NKe5FbfrOK0zDJM7vm2RA0jrumRF9PSM5I74SQap5o2UxAR1pTbuI/eS9\nXDggX9u2jCCy8TlXBx/FQqujeZtKqlML3HCfNwsqSVjwbW1rFxI4IX4753GrFj/O\nF7Evn9UUnCly3ePoXkqNDVyqXLPiIzPhi44TdqmF0gPFITGtrIK9VO6I8HuMMYQI\nUk9JKsH1ViJkT+e+kjN6E4Xo83mXR7S9GywWL5c0QRyCcF/RtLW/lm8boYWRsxIz\nod5nW0CvuOBf3P+s1TSpiNYF/9sNI1nq5+UnhCCiytWXNKh4nbhATP5kS6hLei6g\nNmC5P/J3AgMBAAECggEAG8yTVVF9kke6QgG61VYT200NsRK7hDgLomEcfHUnYyOx\nokE0JXt0JlDSc1DC6/6We6SI8DqSbgNoT06TIO3zJsTAX3NBktDxwDcVJDePgz4e\n6ucxNLy9ezrlnOgz2a/ltU75AN5AMn1Lq7JLTtHolp5J37ZTir7l+JyNL+1/ji6t\nJ1Tr7Mr9vX3Ooxs+b8cJatcHk2sDenonVNv5YG81v8oxe9ijXXdGx+lAV4AvU0MY\nR0fs1uCsf8hrYv37eYYhBxLl3bmvFkXMfzaAS/JoISOxVilTyGaRmjhEjRMeh1YZ\n2gttlrpZQHf+NFrt2tQjV8e3BFUmiYZQ7A4UuOyTfQKBgQDccfEuNjEa60sDe+H0\nJjGX8oKU4YTC/6HPrcBekMjX9qxkzU0G/DizfewiM/h0S8m9BZ1rVQyNFllsUQr6\nx55FcxdE3/Sjwl0+uBnEejtIGj+jxnF4lGMbK81RapeKl/WmAzorGF92i3KP7Abn\n/wnEr06p1tcSV2nkaysqSiNE2wKBgQDMYyY1PFOHcctwsHnZ4FNuBDkVbFlpDWrf\ncl2nW9zbtnm7Q6QXnyeALZ1Px7ah13UgGudWd3nibNKgOBbGzL2UdmR1ELEtcABM\n9aO81Cqj9Eh+OdHEED0gVZwwmciNIrkeFS0chUiMl4r0FfZvuQZW0BFXQmfqG4/t\nKTwcWvlNlQKBgElIy8/8DgkP7akj1vMOe3AzG7wY2MTmrMlYztnhMhOxmpAMPC41\nTThGhWi9dDxdMZzYMAQNixWgN2wt6QODtxcJctPfy/lg1RTTqSVLKUgICd4NS421\nbtkKj8AgOm7Fo9Fjw0OuX5YON7Cm24jmnT24teL6XBdp3fcktX3ilaT/AoGAAkrO\nX+R4T1mQXYgtJatlZCN5/GqFqi7zVuQydrEKDhDC1r3Qdk9bow1f6UglHTWMY7rJ\ng2e9nzN3PULDxqD/M04MnF9+jTLnXfWXS4PZopMXyQqe9qLz/IvZP5ZJ8INGLjcw\nlVRNVv5QGaKxa9lYX9rfhuoAvlhmydMfkHXYu+0CgYAdTYRjalh/h6S5BpGwUjsU\n4Lz9iEE0O5Tmf79ySip2EsW2OQxyDqfViMtWjY7p1BRb4ulC9GE3hQsgsj7HIgsp\nZvT+tfyQkgWHaXAdgiGM7WdPmKtYv+yVXAJAy/F3jLWtVw5YLZczsf9jIw40hrUT\nlACYje4oHQEueUC55G0SMw==\n-----END PRIVATE KEY-----\n",
+  "client_email": "helm-crack-sa@concretecrackdetection-403519.iam.gserviceaccount.com",
+  "client_id": "114705800810186629833",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/helm-crack-sa%40concretecrackdetection-403519.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
