@@ -80,9 +80,7 @@ The purpose is NOT,
 
    **Step-3** There are 3 components that are all connected to the same `PVC`.
 
-   **Step-4** Three components have the following 5 folders. Let see below picture.
-
-   ![Inside Component](/docScreenshots/insideComponent.png)
+   **Step-4** Three components have the following 5 folders. 
 
    1) **app** :- Inside this folder we will get the set of instructions for building a specific component, along with a `dockerfile`.
 
@@ -99,8 +97,8 @@ Running it is as simple as 1 ... 2 ... 3
 1. Configure Infra , the volume
 
    ![GCloud configure](/docScreenshots/gcloud-1.png)
-   ![GCloud configure](/docScreenshots/configure-1.png)
-   ![GCloud configure](/docScreenshots/configure-2.png)
+   ![GCloud configure](/docScreenshots/Configure-1.png)
+   ![GCloud configure](/docScreenshots/Configure-2.png)
 
 2. Install the 3 part app through helm.
 
