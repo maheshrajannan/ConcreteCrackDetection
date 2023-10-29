@@ -39,11 +39,7 @@ The purpose is NOT,
    3. Advanced Learning.
 
 
-## Pre-requisite
-
-**Setup & configuration of gCloud and Docker**
-
-   Let us follow this for setup and documentation, see [here](gCloudDockerSetup.md).
+## Background
 
    Before starting a running app, let's first make sure we understand the background.
 
